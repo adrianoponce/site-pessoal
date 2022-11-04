@@ -11,19 +11,19 @@ html {
 
 .site-inteiro {
     /*width: 1000px; /*tamanho do site inteiro*/
-    border: 1px solid red; 
+    /*border: 1px solid red;*/ 
     margin: 0 auto; /*0 vale para o top e bottom, auto para left e right*/
 }
 
 .cabecalho {
     text-align: center; /*centraliza os elementos do cabeçalho*/
-    background-image: url('imagens/imagem01.jpg'); /*define uma imagem de fundo*/
+    background-image: url('imagens/imagem03.jpg'); /*define uma imagem de fundo*/
     background-position: center center; /*primeiro center é para top e bottom, segundo center para left e right*/
     background-size: cover; /*preenche com a imagem todo o fundo do tamanho do site*/
     background-repeat: no-repeat; /*para não repetir a imagem quando ela for menor que o tamanho do site*/
     padding-top: 20px; /*aumenta espaçamento na borda superior do cabeçalho*/
     padding-bottom: 20px; /*aumenta espaçamento na borda inferior do cabeçalho*/
-    color: white;
+    color:yellow;
     font-family: 'Cookie'; /*fonte definida pelo usuário*/
 }
 
@@ -55,4 +55,30 @@ html {
     font-size: 20px; /*tamanho da fonte*/
     line-height: 90px; /*altura da linha - diminui ou aumenta o espaçamento entre linhas*/
     font-weight: normal; /*deixa a fonte mais fina*/
+}
+
+.linha-fotos {
+    /*display: inline; um elemento na frente do outro*/
+    /*display: block; um elemento embaixo do outro*/
+    display: flex; /*um elemento na frente do outro*/
+    justify-content: space-evenly; /*espaça os elementos*/
+
+}
+
+.site-01,
+.site-02,
+.site-03 {
+    border: 5px solid #FFE8D6;
+    border-radius: 3px; /*borda arredondada*/
+    transition: transform 0.5s ease; /*ease - efeito linear - no transform da imagem*/
+    /*transition: all 0.5s ease; controla os efeitos de transição*/
+}
+
+/*hover - comportamento do mouse*/
+.site-01:hover,
+.site-02:hover,
+.site-03:hover {
+    border-color: aquamarine; /*muda a cor da borda na passagem do cursor*/
+    cursor: crosshair; /*muda o mouse na passagem do cursor*/
+    transform: scale(1.1); /*destaca tamanho da imagem na passagem do cursor*/
 }
