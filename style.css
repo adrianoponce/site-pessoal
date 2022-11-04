@@ -1,0 +1,58 @@
+* {
+    /*para zerar as margens - sempre utilizar*/
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.site-inteiro {
+    /*width: 1000px; /*tamanho do site inteiro*/
+    border: 1px solid red; 
+    margin: 0 auto; /*0 vale para o top e bottom, auto para left e right*/
+}
+
+.cabecalho {
+    text-align: center; /*centraliza os elementos do cabeçalho*/
+    background-image: url('imagens/imagem01.jpg'); /*define uma imagem de fundo*/
+    background-position: center center; /*primeiro center é para top e bottom, segundo center para left e right*/
+    background-size: cover; /*preenche com a imagem todo o fundo do tamanho do site*/
+    background-repeat: no-repeat; /*para não repetir a imagem quando ela for menor que o tamanho do site*/
+    padding-top: 20px; /*aumenta espaçamento na borda superior do cabeçalho*/
+    padding-bottom: 20px; /*aumenta espaçamento na borda inferior do cabeçalho*/
+    color: white;
+    font-family: 'Cookie'; /*fonte definida pelo usuário*/
+}
+
+.titulo-cargo {
+    font-size: 30px; /*tamanho da fonte*/
+    line-height: 90px; /*altura da linha - diminui ou aumenta o espaçamento entre linhas*/
+    font-weight: normal; /*deixa a fonte mais fina*/
+ }
+
+.titulo-nome {
+    font-size: 60px; /*tamanho da fonte*/
+    line-height: 90px; /*altura da linha - diminui ou aumenta o espaçamento entre linhas*/
+    font-weight: bold;
+}
+
+.titulo-versao {
+    font-size: 30px; /*tamanho da fonte*/
+    line-height: 90px; /*altura da linha - diminui ou aumenta o espaçamento entre linhas*/
+    font-weight: normal; /*deixa a fonte mais fina*/
+}
+
+.titulo-projetos {
+    font-size: 30px; /*tamanho da fonte*/
+    line-height: 90px; /*altura da linha - diminui ou aumenta o espaçamento entre linhas*/
+    font-weight: normal; /*deixa a fonte mais fina*/
+}
+
+.titulo-click {
+    font-size: 20px; /*tamanho da fonte*/
+    line-height: 90px; /*altura da linha - diminui ou aumenta o espaçamento entre linhas*/
+    font-weight: normal; /*deixa a fonte mais fina*/
+}
