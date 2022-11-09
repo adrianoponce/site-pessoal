@@ -23,15 +23,15 @@ html {
     background-repeat: no-repeat; /*para não repetir a imagem quando ela for menor que o tamanho do site*/
     padding-top: 20px; /*aumenta espaçamento na borda superior do cabeçalho*/
     padding-bottom: 20px; /*aumenta espaçamento na borda inferior do cabeçalho*/
-    color:yellow;
+    color: red;
     font-family: 'Cookie'; /*fonte definida pelo usuário*/
 }
 
 .titulo-cargo {
     font-size: 30px; /*tamanho da fonte*/
     line-height: 90px; /*altura da linha - diminui ou aumenta o espaçamento entre linhas*/
-    font-weight: normal; /*deixa a fonte mais fina*/
- }
+    font-weight: bold; /*deixa a fonte mais fina*/
+}
 
 .titulo-nome {
     font-size: 60px; /*tamanho da fonte*/
@@ -42,19 +42,19 @@ html {
 .titulo-versao {
     font-size: 30px; /*tamanho da fonte*/
     line-height: 90px; /*altura da linha - diminui ou aumenta o espaçamento entre linhas*/
-    font-weight: normal; /*deixa a fonte mais fina*/
+    font-weight: bold; /*deixa a fonte mais fina*/
 }
 
 .titulo-projetos {
     font-size: 30px; /*tamanho da fonte*/
     line-height: 90px; /*altura da linha - diminui ou aumenta o espaçamento entre linhas*/
-    font-weight: normal; /*deixa a fonte mais fina*/
+    font-weight: bold; /*deixa a fonte mais fina*/
 }
 
 .titulo-click {
     font-size: 20px; /*tamanho da fonte*/
     line-height: 90px; /*altura da linha - diminui ou aumenta o espaçamento entre linhas*/
-    font-weight: normal; /*deixa a fonte mais fina*/
+    font-weight: bold; /*deixa a fonte mais fina*/
 }
 
 .linha-fotos {
@@ -68,7 +68,7 @@ html {
 .site-01,
 .site-02,
 .site-03 {
-    border: 5px solid #FFE8D6;
+    border: 5px solid rgb(71, 69, 69);
     border-radius: 3px; /*borda arredondada*/
     transition: transform 0.5s ease; /*ease - efeito linear - no transform da imagem*/
     /*transition: all 0.5s ease; controla os efeitos de transição*/
@@ -78,7 +78,7 @@ html {
 .site-01:hover,
 .site-02:hover,
 .site-03:hover {
-    border-color: aquamarine; /*muda a cor da borda na passagem do cursor*/
+    border-color: red; /*muda a cor da borda na passagem do cursor*/
     cursor: crosshair; /*muda o mouse na passagem do cursor*/
     transform: scale(1.1); /*destaca tamanho da imagem na passagem do cursor*/
 }
